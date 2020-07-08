@@ -11,7 +11,23 @@
     <div class=container>
       <h1>Let's try to build a triangle!</h1>
       <h2>Fill in the three boxes with potential lengths of a triangle to see what kind of triangle they would form</h2>
-      
+      <form id="sides">
+        <label for="side1"First Side></label>
+        <input id="side1" type="text">
+        <label for="side2"First Side></label>
+        <input id="side2" type="text">
+        <label for="side3"First Side></label>
+        <input id="side3" type="text">
+
+        <button type="submit" class="btn"What kind of Triangle?></button>
+      </form>
+    </div>
+
+    <div id="answer">
+      <p>Your three sides together will construct <span id="tritype"></span> triangle.</p>
+    </div>
+    <div id="unanswer">
+      <p>THe three side lenghts you provided can not create a triangle of any type.  Please try again.</p>
     </div>
   </BODY>
 </html>
